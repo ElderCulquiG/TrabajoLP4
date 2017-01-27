@@ -37,7 +37,7 @@ require_once('conection.php');
 
     function modificarPersona($id_persona,$dni,$nombre,$fecha_nac){
       mysql_query("UPDATE persona SET dni='$dni', nombre='$nombre', fecha_nac='$fecha_nac'
-                   WHERE id = '$id_persona'");
+                   WHERE id_persona = '$id_persona'");
       if(mysql_affected_rows() > 0) return true;
       else return false;
     }

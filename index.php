@@ -102,8 +102,12 @@ form.login div input[type="submit"] {
 </form>
 <?php
 } else {
+       
 	echo 'Su usuario ingreso correctamente.';
+        session_destroy();
 	echo '<a href="view/view.php">Logout</a>';
+       
+        
 }
 ?>
     

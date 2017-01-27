@@ -11,7 +11,11 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        echo "Página en Mantenimiento";
+        require_once("model/model.php");
+        require_once("model/conection.php");
+        $con = new mpersona;
+        
+        $con ->mostrarPersona();
         ?>
     </body>
 </html>

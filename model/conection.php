@@ -5,3 +5,4 @@ $link = mysql_connect('localhost', 'root', '')
 
 mysql_select_db('lp4') or die('No se pudo seleccionar la base de datos');
 
+?>

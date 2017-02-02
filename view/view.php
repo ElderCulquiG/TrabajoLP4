@@ -31,7 +31,7 @@ $con = new mpersona;
     </div>
     <div>
       <?php $con ->mostrarPersona(); 
-       echo '<a href="../logout.php">Salir</a>';
+       echo '<a href="../logout.php">Cerrar Sesion</a>';
         ?>
     </div>
 
